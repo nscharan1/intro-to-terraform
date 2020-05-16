@@ -26,7 +26,7 @@ provider "aws" {
 
 resource "aws_instance" "example" {
 
-  ami                    = "${var.ami_id}"  ami-0affd4508a5d2481b
-  instance_type          = "${var.instance_id}" t2.micro
-  key_name               = "${var.key_id}"  pri
+  ami                    = "${var.ami_id}"  
+  instance_type          = "${var.instance_id}" 
+  key_name               = "${var.key_id}" 
   
